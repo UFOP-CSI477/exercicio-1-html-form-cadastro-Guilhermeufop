@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Listar</title>
+		<style type="text/css">
+			h1{
+				text-align: center;
+			}			
+
+			table{
+				width: 100%;
+				border-collpase: collapse;
+				border: 1px solid black;
+			}
+			th, td{
+				height: 100%;
+				padding: 10px;
+				text-align: left;
+				border: 1px solid black;
+			}
+			th{
+				background-color: #BC3636;
+			}
+
+
+		</style>
+	</head>
+
+	<body>
+		<h1> Listar alunos</h1>
+		<table>
+			<tr>
+				<th>Matricula</th>
+				<th>Nome</th>
+				<th>Email</th>
+				<th>CPF</th>
+				<th>Assinatura</th>
+			</tr>
+		</table>
+
+
+	</body>
+</html>
